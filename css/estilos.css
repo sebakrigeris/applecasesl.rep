@@ -27,7 +27,7 @@ nav {
     margin-left: 30px;
     width: 80px;
 }
-.logo__titulo {
+.logo__titulo{
     background: linear-gradient(to right,#7ba6c7,#d7d2cc);
     -webkit-background-clip: text;
     background-clip: text;
@@ -110,6 +110,8 @@ nav {
     text-decoration: none;
 }
 
+
+
 /*Contenido index*/
 
 #img-secundaria {
@@ -183,6 +185,12 @@ nav {
     letter-spacing: 1px;
     margin-bottom: 8px;
 }
+
+#contenido2 img:hover{
+    width: 450px;
+    transition: 1s;
+}
+
 div .but{
     font-size: 18px;
     font-family: 'Space Grotesk', sans-serif;
@@ -209,6 +217,12 @@ div .but{
     justify-content: flex-start;
     align-items: center;                 
 }
+
+.redsocial img:hover {
+    width: 55px;
+    transition: 0.3s;
+}
+
 .social img {
     margin-left: 80px;
 }
@@ -219,6 +233,7 @@ div .but{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
+
 .contactofooter {
     display: flex;
     justify-content: flex-end;
@@ -258,6 +273,12 @@ div .but{
     text-align: center;
     margin-top: 100px;
 }
+
+#contenedorproductos img:hover {
+    width: 380px;
+    transition: 1s;
+}
+
 #contenedorproductos .h3primero {
     padding-top: 10px;
     color: white;
