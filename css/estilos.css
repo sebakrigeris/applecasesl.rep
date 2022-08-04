@@ -17,7 +17,17 @@
     background: linear-gradient(to left, rgb(0, 0, 0), rgb(44, 55, 78), rgb(54, 57, 65));
 }
 
-.colornav ul li a {
+.navbar-brand{
+    background: linear-gradient(to right,#7ba6c7,#d7d2cc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.colornavapple ul li a {
     color: white;
 }
 
@@ -302,18 +312,29 @@ div .but_applecasesl{
 }
 #contenedorproductos {
     display: grid;
-    grid-template-columns: repeat(3, 470px);
-    grid-template-rows: repeat(2, 550px);
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 390px);
+    grid-template-rows: repeat(2, 420px);
     grid-column-gap: 25px;
-    grid-row-gap: 70px;
+    grid-row-gap: 200px;
     justify-content: center;
     text-align: center;
     margin-top: 100px;
 }
 
+.card {
+    display: grid ;
+    background-color: black;
+}
+
+.card-title{
+    background-color: white;
+}
 #contenedorproductos img:hover {
-    width: 380px;
+    width: 290px;
     transition: 1s;
+    outline: auto;
 }
 
 #contenedorproductos .h3primero {
@@ -328,7 +349,7 @@ div .but_applecasesl{
     font-family: 'Public Sans- Medium', sans-serif;
 }
 
-.btnproductos {
+/* .btnproductos {
     margin-top: 15px;
     background: linear-gradient(to left, black, rgb(63, 63, 102), rgb(46, 46, 54));
     border: 2px solid rgb(79, 80, 133);
@@ -341,7 +362,7 @@ div .but_applecasesl{
     border: 1px solid white;
     border-radius: 1em;
     padding-bottom: 7px;
-}
+} */
 
 /*iframe Productos*/
 
@@ -556,12 +577,12 @@ h4 span {
 
 @media only screen and (max-width: 576px) {
     /*estilos generales */
-    nav {
-        flex-direction: column;
-        align-items: center;
+    .navbar-toggler {
+        background-color: white;
+        margin-right: 10px;
     }
 
-    nav .logo {
+    /* nav .logo {
         margin-right: 100px;
     }
 
@@ -573,80 +594,81 @@ h4 span {
 
     .btn-personalizado {
         padding: 4px 10px;
-    }
+    } */ 
     
     /*Imagen principal*/
 
-    #imagenprincipal {
+    #img_principal_applecasesl {
         height: 370px;
     }
-    .img_index img {
+    .img_applecasesl img {
         width: 205px;
         margin-top: 18px;
-        margin-left: 20px;
+        margin-left: 30px;
         
     }
-    .imagen__textobotton{
-        font-size: 20px;
+    .img_textobotton_applecasesl{
+        
         margin-top: 30px;
-        margin-right: 90px;
+        margin-right: 80px;
         letter-spacing: 1px;
     }
-    .imagen__textobotton h1 {
+    .img_textobotton_applecasesl h1 {
+        font-size: 35px;
         line-height: 1;
     }
 
-    .imagen__textobotton .img-texto {
+    .img_textobotton_applecasesl h1 .span_applecasesl {
         font-size: 15px;
     }
 
-    .imagen__textobotton h1 span {
-        font-size: 20px;
+    .img_textobotton_applecasesl h1 span {
+        font-size: 25px;
     }
 
-    .imagen__textobotton button a {
-        font-size: 15px;
+    .img_textobotton_applecasesl button a {
+        font-size: 12px;
         padding: 4px 10px;
     }
 
     /* contenido index secundario */
 
-    #img-secundaria {
+    #img_secundaria_applecasesl {
         height: 490px;
     }
 
-    .textosec h2 {
+    .textosec_applecasesl h2 {
         font-size: 25px;
         margin-right: 30px;
     }
 
-    .textosec h2 span{
+    .textosec_applecasesl h2 span{
         font-size: 20px;
     }
 
-    .textosec button a {
+    .textosec_applecasesl button a {
         font-size: 15px;
         padding: 4px 10px;
     }
 
-    #img-2 img {
+    #img_2_applecasesl img {
         width: 310px;
         margin-bottom: 140px;
     }
     /*imagenes index contenido secundario */
-    #contenido2 {
+    #contenido2_applecasesl {
         grid-template-columns: auto;
     }
 
     /* footer */
 
-    #footer {
+    #footer_applecaesl {
         flex-direction: column;
         align-items: center;
         padding: 15px;
     }
 
-    .redsocial {
+    .redsocial_applecasesl {
         margin-right: 70px;
     }
 
@@ -658,7 +680,7 @@ h4 span {
 
     #contenedorproductos {
         grid-template-columns: auto;
-        margin-bottom: 150px;
+        margin-bottom: 120px;
     }
     /* iframe page-productos */
 
@@ -667,7 +689,7 @@ h4 span {
         justify-content: center;
     }
 
-    .contenedor-iframe .iframe-h4 {
+    .contenedor-iframe .iframe-h4 h4{
         font-size: 40px;
         text-align: center;
         margin-right: 35px;
