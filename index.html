@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Krona+One&display=swap" rel="stylesheet">
@@ -25,63 +26,104 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <!-- Librería Animaciones-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Icono web-->
     <link rel="shortcut icon" href="./assets/icon/logo.png" type="image/x-icon">
+    <!--Libreria Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Hoja de estilos css-->
     <link rel="stylesheet" href="./css/estilos.css">
     <title>AppleCaseSL</title>
 </head>
-<body>
+<body class="background-applecasesl">
     <header>
-        <nav>
+        <nav class="navbar navbar-expand-lg backnav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">AppleCaseSL</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse colornav" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Ubicación
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+        <!-- <nav id="contenedor_navapple">
             <div>
-            <a class="logo" href="./index.html">
-                <img class="logo__principal" src="./assets/icon/logo.png" alt="Logo principal">
-                <h2 class="logo__titulo animate__animated animate__backInRight">AppleCase SL</h2>
+            <a class="nav_applecasesl" href="./index.html">
+                <img class="logo__applecasesl" src="./assets/icon/logo.png" alt="Logo principal">
+                <h2 class="logo_titulo_applecasesl animate__animated animate__backInRight">AppleCase SL</h2>
             </a>
             </div>
-            <ul class="barra">
-                <li class="barra__listas"><a href="#">Inicio</a></li>
-                <li class="barra__listas"><a href="./pages/productos.html">Productos</a></li>
-                <li class="barra__listas"><a href="./pages/ubicacion.html">Ubicacion</a></li>
-                <li class="barra__listas"><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li class="barra__listas"><a class="btn-personalizado" href="./pages/contacto.html">Contacto</a></li>
+            <ul class="barra_applecasesl">
+                <li class="li__applecasesl"><a href="#">Inicio</a></li>
+                <li class="li__applecasesl"><a href="./pages/productos.html">Productos</a></li>
+                <li class="li__applecasesl"><a href="./pages/ubicacion.html">Ubicacion</a></li>
+                <li class="li__applecasesl"><a href="./pages/nosotros.html">Nosotros</a></li>
+                <li class="li__applecasesl"><a class="btn_applecasesl" href="./pages/contacto.html">Contacto</a></li>
             </ul>
-        </nav>
-        <div id="imagenprincipal">
-            <div class="img_index">
+        </nav> -->
+
+        <div id="img_principal_applecasesl">
+            <div class="img_applecasesl">
                 <img class="animate__animated animate__fadeInLeft" src="./assets/img/hero_large_2x-1.png" alt="Celulares y fundas para Iphone" width="400px">
             </div>
-            <div class="imagen__textobotton">
-        <h1>El futuro es a toda pantalla.<br><span class="img-texto">12 cuotas fijas y envíos a todo el país.</span><br><span>AppleCase SL</span></h1>
+            <div class="img_textobotton_applecasesl">
+        <h1>El futuro es a toda pantalla.<br><span class="span_applecasesl">12 cuotas fijas y envíos a todo el país.</span><br><span>AppleCase SL</span></h1>
         <button><a href="./pages/productos.html">Ver más</a></button>
             </div>
         </div>
+
     </header>
     <main>
         <section>
             <article>
-            <div id="img-secundaria">
-                <div class="textosec">
+            <div id="img_secundaria_applecasesl">
+                <div class="textosec_applecasesl">
                     <h2>Encuentra el iPhone perfecto para ti. <br> <span>AppleCase SL</span></h2>
                     <button><a href="./pages/productos.html">Ver más</a></button>
                 </div>
-                <div id="img-2">
+                <div id="img_2_applecasesl">
                 <img class="animate__animated animate__fadeInLeftBig" src="./assets/img/ipcels.png" alt="Mac escritorio" width="650px">
             </div>
             </div>
-            <!--
-            <div class="textosec2">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem fugiat repellendus autem ut reiciendis quidem eaque itaque</p>
-            </div>-->
+        
             </article>
         </section>
-        <section id="contenido2">
+        <section id="contenido2_applecasesl">
             <article>
                 <h2>Productos Destacados</h2>
                 <img src="./assets/img/imgindex1.png" alt="Celulares y fundas para Iphone" width="400">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing<br> elit. Architecto, earum?</p>
                 <div>
-                <button class="but">Comprar</button>
+                <button class="but_applecasesl">Comprar</button>
             </div>
             </article>
             <article>
@@ -89,7 +131,7 @@
                 <img src="./assets/img/imgindex2.png" alt="Celulares y fundas para Iphone" width="400">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing<br> elit. Architecto, earum?</p>
                 <div>
-                <button class="but">Comprar</button>
+                <button class="but_applecasesl">Comprar</button>
             </div>
             </article>
             <article>
@@ -97,30 +139,31 @@
                 <img src="./assets/img/imgindex3.png" alt="Celulares y fundas para Iphone" width="400">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing<br> elit. Architecto, earum?</p>
                 <div>
-                <button class="but">Comprar</button>
+                <button class="but_applecasesl">Comprar</button>
             </div>
             </article>
         </section>
     </main>
-    <footer id="footer">
-        <div class="redsocial">
-        <a class="social" href="https://www.instagram.com/" target="_blank"><img src="./assets/icon/instagram.png" alt="logo de Instagram" width="65"></a>
-        <a class="social" href="https://www.facebook.com" target="_blank"><img src="./assets/icon/facebook.png" alt="Logo de Facebook" width="65"></a>
-        <a class="social" href="https://www.twitter.com" target="_blank"><img src="./assets/icon/twitter.png" alt="logo de Twitter" width="65"></a>
+    <footer id="footer_applecaesl">
+        <div class="redsocial_applecasesl">
+        <a class="social_applecasesl" href="https://www.instagram.com/" target="_blank"><img src="./assets/icon/instagram.png" alt="logo de Instagram" width="65"></a>
+        <a class="social_applecasesl" href="https://www.facebook.com" target="_blank"><img src="./assets/icon/facebook.png" alt="Logo de Facebook" width="65"></a>
+        <a class="social_applecasesl" href="https://www.twitter.com" target="_blank"><img src="./assets/icon/twitter.png" alt="logo de Twitter" width="65"></a>
     </div>
-    <div class="desarrollo">
+    <div class="desarrollo_applecasesl">
         <h5>Copyright ©2022 - Apple Case SL Store Argentino</h5>
     </div>
-    <div class="contactofooter">
-        <div class="whatsapp">
+    <div class="contactofooter_applecasesl">
+        <div class="whatsapp_applecasesl">
         <img src="../assets/icon/whatsapp.png" alt="Logo de WhatsApp" width="40">
         <h4>095 056 552</h4>
     </div>
-    <div class="gmail">
+    <div class="gmail_applecasesl">
         <img src="../assets/icon/gmail.png" alt="Logo de E-mail" width="45">
         <h4>Applecasesl@gmail.com</h4>
     </div>
     </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

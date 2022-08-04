@@ -5,29 +5,44 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Barra de Navegacióm */
-html {
+
+.background-applecasesl {
     background: url("../assets/backgrounds/backgroundtotal.png");
     background-size: cover;
 }
-nav {
+
+/* Barra de Navegacióm */
+
+.backnav {
+    background: linear-gradient(to left, rgb(0, 0, 0), rgb(44, 55, 78), rgb(54, 57, 65));
+}
+
+.colornav ul li a {
+    color: white;
+}
+
+/* #contenedor_navapple {
     background: linear-gradient(to left, rgb(0, 0, 0), rgb(44, 55, 78), rgb(54, 57, 65));
     background-size: cover;
     display: flex;
     justify-content: space-between;
 }
-.logo {
+
+.nav_applecasesl{
     display: flex;
     align-items: center;
     color: white;
     text-decoration: none;
+    margin-top: 5px;
 }
-.logo__principal{
+
+.logo__applecasesl{
     margin-right: 15px;
     margin-left: 30px;
     width: 80px;
 }
-.logo__titulo{
+
+.logo_titulo_applecasesl{
     background: linear-gradient(to right,#7ba6c7,#d7d2cc);
     -webkit-background-clip: text;
     background-clip: text;
@@ -35,13 +50,17 @@ nav {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
 }
-.barra {
+
+.barra_applecasesl {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style-type: none;
+    margin-top: 20px;
 }
-.barra .barra__listas a {
+
+.barra_applecasesl .li__applecasesl a {
+    
     color: white;
     margin-right: 26px;
     text-decoration: none;
@@ -49,16 +68,16 @@ nav {
     font-family: 'Public Sans- Medium', sans-serif;
 }
 
-.btn-personalizado {
+.btn_applecasesl {
     border: 1px solid rgb(236, 231, 231);
     border-radius: 1em;
     padding: 6px 13px;
     background: linear-gradient(to right,#304352,#d7d2cc);
-}
+} */
 
 /*Imagen principal */
 
-#imagenprincipal {
+#img_principal_applecasesl {
     width: 100%;
     height: 650px;
     background: url("../assets/backgrounds/backgroundtotal2.png");
@@ -71,28 +90,28 @@ nav {
     text-align: center;
 }
 
-.img_index {
+.img_applecasesl {
     margin-top: 45px;
-    margin-right: 40px;
+    margin-right: 20px;
 }
-.imagen__textobotton {
-    font-size: 35px;
+.img_textobotton_applecasesl h1 {
+    font-size: 75px;
     font-family: 'Noto Sans KR', sans-serif;
     margin-left: 40px;
     color: white;
-    line-height: 01.5em;
+    line-height: 0.8em;
 }
 
-.imagen__textobotton .img-texto {
+.img_textobotton_applecasesl .span_applecasesl {
     color: white;
     background: linear-gradient(to left, #ADA996, #DBDBDB, #EAEAEA);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 30px;
+    font-size: 38px;
 }
 
-.imagen__textobotton h1 span{
+.img_textobotton_applecasesl h1 span{
     background: linear-gradient(to right,  rgb(255, 176, 6),rgb(219, 46, 133), rgb(219, 46, 133),rgb(255, 176, 6), rgb(255, 176, 6),rgb(219, 46, 133));
     -webkit-background-clip: text;
     background-clip: text;
@@ -100,21 +119,19 @@ nav {
     font-size: 50px;
 }
 
-.imagen__textobotton button a {
+.img_textobotton_applecasesl button a {
     display: block;
     font-size: 23px;
     font-family: 'Space Grotesk', sans-serif;
     background: linear-gradient(to left, #7e8d99, #e1e7e9);
     padding: 7px 20px;
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
-
-
 /*Contenido index*/
 
-#img-secundaria {
+#img_secundaria_applecasesl {
     width: 100%;
     height: 650px;
     background-repeat: no-repeat;
@@ -124,19 +141,22 @@ nav {
     align-items: flex-end;
 }
 
-.textosec { 
+.textosec_applecasesl{ 
     display: block;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    font-size: 34px;
-    font-family: 'Noto Sans KR', sans-serif;
-    color: white;
-    margin-bottom: 250px;
+    margin-bottom: 300px;
     margin-left: 45px;
 }
 
-.textosec h2 span {
+.textosec_applecasesl h2 {
+    font-size: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+}
+
+.textosec_applecasesl h2 span {
     background: linear-gradient(to right,  rgb(255, 176, 6),rgb(219, 46, 133), rgb(219, 46, 133),rgb(255, 176, 6), rgb(255, 176, 6),rgb(219, 46, 133));
     -webkit-background-clip: text;
     background-clip: text;
@@ -144,7 +164,7 @@ nav {
     font-size: 50px;
 }
 
-.textosec button a {
+.textosec_applecasesl button a {
     display: block;
     font-size: 20px;
     font-family: 'Space Grotesk', sans-serif;
@@ -155,7 +175,7 @@ nav {
     text-decoration: none;
 }
 
-.textosec2 p {
+/* .textosec2 p {
     font-size: 20px;
     font-family: 'Medium', sans-serif;
     text-transform: uppercase;
@@ -165,14 +185,14 @@ nav {
     color: white;
     background: linear-gradient(to left, rgb(26, 24, 24), rgb(53, 53, 66));
     text-align: center;
-}
-#img-secundaria #img-2 img {
+} */
+#img_secundaria_applecasesl #img_2_applecasesl img {
     margin-top: 70px;
 }
 
 /* contenido secundario index */
 
-#contenido2 {
+#contenido2_applecasesl {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
@@ -181,17 +201,19 @@ nav {
     color: white;
     font-family: 'Inter', sans-serif;
 }
-#contenido2 h2 {
-    letter-spacing: 1px;
+#contenido2_applecasesl h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: px;
     margin-bottom: 8px;
 }
 
-#contenido2 img:hover{
+#contenido2_applecasesl img:hover{
     width: 450px;
     transition: 1s;
 }
 
-div .but{
+div .but_applecasesl{
     font-size: 18px;
     font-family: 'Space Grotesk', sans-serif;
     padding: 3px 7px;
@@ -204,53 +226,68 @@ div .but{
 
 /* footer */
 
-#footer {
+#footer_applecaesl {
     background: linear-gradient(to right, rgb(0, 0, 0), rgb(44, 55, 78), rgb(54, 57, 65));
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
 }
-.redsocial {
+
+.redsocial_applecasesl {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;                 
 }
 
-.redsocial img:hover {
+.redsocial_applecasesl img:hover {
     width: 55px;
     transition: 0.3s;
 }
 
-.social img {
+.social_applecasesl img {
     margin-left: 80px;
 }
-.desarrollo {
+
+.desarrollo_applecasesl h5{
     display: flex;
     justify-content: center;
-    font-size: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 13px;
     color: white;
 }
 
-.contactofooter {
+.contactofooter_applecasesl {
     display: flex;
     justify-content: flex-end;
     align-content: center;
     flex-direction: column;
 }
 
-.whatsapp, .gmail{
+.whatsapp_applecasesl, .gmail_applecasesl {
     display: flex;
     align-items: center;
     color: white;
     margin-right: 20px;
-    font-family: 'Inter', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
-.whatsapp img, .gmail img{
+.whatsapp_applecasesl h4 {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 8px;
+}
+
+.gmail_applecasesl h4 {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 7px;
+}
+
+.whatsapp_applecasesl img, .gmail_applecasesl img{
     margin-top: 3.2px;
     margin-right: 16px;
 }
@@ -268,7 +305,7 @@ div .but{
     grid-template-columns: repeat(3, 470px);
     grid-template-rows: repeat(2, 550px);
     grid-column-gap: 25px;
-    grid-row-gap: 30px;
+    grid-row-gap: 70px;
     justify-content: center;
     text-align: center;
     margin-top: 100px;
@@ -300,7 +337,7 @@ div .but{
     padding: 3px 7px;
 }
 
-#contenedorproductos .borderproductos1 {
+#contenedorproductos .borderproductos {
     border: 1px solid white;
     border-radius: 1em;
     padding-bottom: 7px;
@@ -326,6 +363,11 @@ div .but{
     color: white;
     margin-left: 20px;
 }
+
+.iframe-h4 h4 {
+    font-size: 60px;
+}
+
 h4 span {
     background: linear-gradient(to right,  rgb(255, 176, 6),rgb(219, 46, 133), rgb(219, 46, 133),rgb(255, 176, 6), rgb(255, 176, 6),rgb(219, 46, 133));
     -webkit-background-clip: text;
@@ -333,6 +375,7 @@ h4 span {
     -webkit-text-fill-color: transparent;
     font-size: 50px;
 }
+
 .iframe-video iframe {
     margin-top: 4px;
     margin-right: 30px;
