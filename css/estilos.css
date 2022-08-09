@@ -23,67 +23,32 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     color: white;
+    margin-left: 15px;
+}
+
+.collapse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 170px;
+    font-size: 18px;
 }
 
 .colornavapple ul li a {
     color: white;
-}
-
-/* #contenedor_navapple {
-    background: linear-gradient(to left, rgb(0, 0, 0), rgb(44, 55, 78), rgb(54, 57, 65));
-    background-size: cover;
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav_applecasesl{
-    display: flex;
-    align-items: center;
-    color: white;
-    text-decoration: none;
-    margin-top: 5px;
-}
-
-.logo__applecasesl{
-    margin-right: 15px;
-    margin-left: 30px;
-    width: 80px;
-}
-
-.logo_titulo_applecasesl{
-    background: linear-gradient(to right,#7ba6c7,#d7d2cc);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-}
-
-.barra_applecasesl {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    margin-top: 20px;
-}
-
-.barra_applecasesl .li__applecasesl a {
     
-    color: white;
-    margin-right: 26px;
-    text-decoration: none;
-    font-size: 21px;
-    font-family: 'Public Sans- Medium', sans-serif;
 }
 
 .btn_applecasesl {
     border: 1px solid rgb(236, 231, 231);
     border-radius: 1em;
-    padding: 6px 13px;
+    padding: 3px 15px;
     background: linear-gradient(to right,#304352,#d7d2cc);
-} */
+    margin-top: 4px;
+    margin-left: 5px;
+}
 
 /*Imagen principal */
 
@@ -185,19 +150,16 @@
     text-decoration: none;
 }
 
-/* .textosec2 p {
-    font-size: 20px;
-    font-family: 'Medium', sans-serif;
-    text-transform: uppercase;
-    margin-bottom: 50px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    color: white;
-    background: linear-gradient(to left, rgb(26, 24, 24), rgb(53, 53, 66));
-    text-align: center;
-} */
 #img_secundaria_applecasesl #img_2_applecasesl img {
     margin-top: 70px;
+}
+
+.style-apple {
+    width: 97%;
+    margin: auto;
+    margin-top: -50px;
+    margin-bottom: 100px;
+    border-radius: 1em;
 }
 
 /* contenido secundario index */
@@ -310,22 +272,35 @@ div .but_applecasesl{
     background: url("../assets/backgrounds/presentaciones0_7469.png");
     background-size: cover;
 }
+
+.product-apple h2{
+    width: 90%;
+    text-align: start;
+    margin-top: 15px;
+    margin-left: 80px;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border-bottom: 0.3px solid white;
+}
+
 #contenedorproductos {
     display: grid;
     justify-items: center;
     align-items: center;
-    grid-template-columns: repeat(3, 390px);
-    grid-template-rows: repeat(2, 420px);
-    grid-column-gap: 25px;
-    grid-row-gap: 200px;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     justify-content: center;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 70px;
+    margin-bottom: -35px;
 }
 
 .card {
     display: grid ;
-    background-color: black;
+    background: url("../assets/backgrounds/backgroundtotal2.png");
 }
 
 .card-title{
@@ -348,21 +323,6 @@ div .but_applecasesl{
     font-size: 20px;
     font-family: 'Public Sans- Medium', sans-serif;
 }
-
-/* .btnproductos {
-    margin-top: 15px;
-    background: linear-gradient(to left, black, rgb(63, 63, 102), rgb(46, 46, 54));
-    border: 2px solid rgb(79, 80, 133);
-    color: white;
-    font-size: 17px;
-    padding: 3px 7px;
-}
-
-#contenedorproductos .borderproductos {
-    border: 1px solid white;
-    border-radius: 1em;
-    padding-bottom: 7px;
-} */
 
 /*iframe Productos*/
 
@@ -431,10 +391,30 @@ h4 span {
 
 /*página nosotros*/
 
+.logo-nosotros {
+    width: 100%;
+    height: 400px;
+    background: url("../assets/backgrounds/backgroundtotal.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-nosotros h2 {
+    background: linear-gradient(to right,  rgb(255, 176, 6),rgb(219, 46, 133), rgb(219, 46, 133),rgb(255, 176, 6), rgb(255, 176, 6),rgb(219, 46, 133));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
 #contenedornosotros {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1, 1 fr;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     color: white;
     margin: 5%;
     grid-gap: 50px;
@@ -449,25 +429,6 @@ h4 span {
     font-family: 'Medium', sans-serif;
     text-align: center;
     font-size: 21px;
-}
-
-#backgroundnosotros {
-    width: 100%;
-    height: 300px;
-    background: url("../assets/backgrounds/dmitry-chernyshov-mP7aPSUm7aE-unsplash.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-}
-#backgroundnosotros button a {
-    display: block;
-    font-size: 20px;
-    background: linear-gradient(to top, black, rgb(29, 29, 143), rgb(182, 46, 182));
-    padding: 12px 25px;
-    color: white;
-    text-decoration: none;
 }
 
 /* Página Contacto */
@@ -582,20 +543,6 @@ h4 span {
         margin-right: 10px;
     }
 
-    /* nav .logo {
-        margin-right: 100px;
-    }
-
-    .barra {
-        margin-left: 22px;
-        margin-bottom: 7px;
-        font-size: 19px;
-    }
-
-    .btn-personalizado {
-        padding: 4px 10px;
-    } */ 
-    
     /*Imagen principal*/
 
     #img_principal_applecasesl {
@@ -678,6 +625,10 @@ h4 span {
         height: 170px;
     }
 
+    .product-apple h2{
+        width: 70%;
+    }
+
     #contenedorproductos {
         grid-template-columns: auto;
         margin-bottom: 120px;
@@ -717,6 +668,20 @@ h4 span {
     }
 
     /* página nosotros */
+
+    .logo-nosotros {
+        height: 200px;
+    }
+
+    .logo-nosotros h2 {
+        word-spacing: -0.2em;
+        font-size: 3.5rem;
+        margin-left: 20px;
+    }
+
+    .logo-nosotros img {
+        width: 150px;
+    }
 
     #contenedornosotros {
         grid-template-columns: auto;
