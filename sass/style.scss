@@ -1,3 +1,12 @@
+$fuente-ap: 'Space Grotesk', sans-serif;
+$fuente-apple: 'Noto Sans KR', sans-serif;
+$fuentes-apple:'Montserrat', sans-serif;
+$fuentes--apple:'Inter', sans-serif;
+$fuentes---apple:'Public Sans- Medium', sans-serif;
+$color-apple: white;
+
+
+
 /* Selector Universal - Margenes y Padding */
 
 * {
@@ -17,14 +26,14 @@
     background: linear-gradient(to left, rgb(0, 0, 0), rgb(44, 55, 78), rgb(54, 57, 65));
 }
 
-.navbar-brand{
+.navbar-brand {
     background: linear-gradient(to right,#7ba6c7,#d7d2cc);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $fuentes-apple;
     font-size: 30px;
-    color: white;
+    color: $color-apple;
     margin-left: 15px;
 }
 
@@ -37,8 +46,7 @@
 }
 
 .colornavapple ul li a {
-    color: white;
-    
+    color: $color-apple;
 }
 
 .btn_applecasesl {
@@ -69,39 +77,43 @@
     margin-top: 45px;
     margin-right: 20px;
 }
-.img_textobotton_applecasesl h1 {
-    font-size: 75px;
-    font-family: 'Noto Sans KR', sans-serif;
-    margin-left: 40px;
-    color: white;
-    line-height: 0.8em;
-}
 
-.img_textobotton_applecasesl .span_applecasesl {
-    color: white;
+.img_textobotton_applecasesl {
+    
+    h1 {
+    font-size: 75px;
+    font-family: $fuente-apple;
+    margin-left: 40px;
+    color: $color-apple;
+    line-height: 0.8em;
+
+    .span_applecasesl {
+    color: $color-apple;
     background: linear-gradient(to left, #ADA996, #DBDBDB, #EAEAEA);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 38px;
-}
 
-.img_textobotton_applecasesl h1 span{
+    span {
     background: linear-gradient(to right,  rgb(255, 176, 6),rgb(219, 46, 133), rgb(219, 46, 133),rgb(255, 176, 6), rgb(255, 176, 6),rgb(219, 46, 133));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 50px;
-}
 
-.img_textobotton_applecasesl button a {
+button a {
     display: block;
     font-size: 23px;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: $fuente-ap;
     background: linear-gradient(to left, #7e8d99, #e1e7e9);
     padding: 7px 20px;
     color: rgb(0, 0, 0);
     text-decoration: none;
+                }
+            }
+        }
+    }
 }
 
 /*Contenido index*/
@@ -127,7 +139,7 @@
 
 .textosec_applecasesl h2 {
     font-size: 50px;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: $fuente-apple;
     color: white;
 }
 
@@ -142,7 +154,7 @@
 .textosec_applecasesl button a {
     display: block;
     font-size: 20px;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: $fuente-ap;
     color: black;
     border-width: none;
     background: linear-gradient(to left, #7e8d99, #e1e7e9);
@@ -171,8 +183,9 @@
     align-items: center;
     text-align: center;
     color: white;
-    font-family: 'Inter', sans-serif;
+    font-family: $fuentes--apple;
 }
+
 #contenido2_applecasesl h2 {
     font-size: 1.6rem;
     font-weight: bold;
@@ -185,9 +198,9 @@
     transition: 1s;
 }
 
-div .but_applecasesl{
+div .but_applecasesl {
     font-size: 18px;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: $fuente-ap;
     padding: 3px 7px;
     border: 2px solid rgb(79, 80, 133);
     margin-top: 10px;
@@ -222,14 +235,14 @@ div .but_applecasesl{
     margin-left: 80px;
 }
 
-.desarrollo_applecasesl h5{
+.desarrollo_applecasesl h5 {
     display: flex;
     justify-content: center;
     font-size: 16px;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: $fuente-ap;
     letter-spacing: 1px;
     margin-top: 13px;
-    color: white;
+    color: $color-apple;
 }
 
 .contactofooter_applecasesl {
@@ -249,17 +262,17 @@ div .but_applecasesl{
 
 .whatsapp_applecasesl h4 {
     font-size: 20px;
-    font-family: 'Inter', sans-serif;
+    font-family: $fuentes--apple;
     margin-top: 8px;
 }
 
 .gmail_applecasesl h4 {
     font-size: 20px;
-    font-family: 'Inter', sans-serif;
+    font-family: $fuentes--apple;
     margin-top: 7px;
 }
 
-.whatsapp_applecasesl img, .gmail_applecasesl img{
+.whatsapp_applecasesl img, .gmail_applecasesl img {
     margin-top: 3.2px;
     margin-right: 16px;
 }
@@ -279,8 +292,8 @@ div .but_applecasesl{
     margin-top: 15px;
     margin-left: 80px;
     font-size: 28px;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+    font-family: $fuentes-apple;
+    color: $color-apple;
     border-bottom: 0.3px solid white;
 }
 
@@ -304,7 +317,7 @@ div .but_applecasesl{
 }
 
 .card-title{
-    background-color: white;
+    background-color: $color-apple;
 }
 #contenedorproductos img:hover {
     width: 290px;
@@ -314,14 +327,14 @@ div .but_applecasesl{
 
 #contenedorproductos .h3primero {
     padding-top: 10px;
-    color: white;
-    font-family: 'Inter', sans-serif;
+    color: $color-apple;
+    font-family: $fuentes--apple;
 }
 
 #contenedorproductos p {
-    color: white;
+    color: $color-apple;
     font-size: 20px;
-    font-family: 'Public Sans- Medium', sans-serif;
+    font-family: $fuentes---apple;
 }
 
 /*iframe Productos*/
@@ -340,8 +353,8 @@ div .but_applecasesl{
     display: flex;
     align-items: center;
     font-size: 60px;
-    font-family: 'Noto Sans KR', sans-serif;
-    color: white;
+    font-family: $fuente-apple;
+    color: $color-apple;
     margin-left: 20px;
 }
 
@@ -502,7 +515,6 @@ h4 span {
     border: 0;
     text-transform: uppercase;
     padding: 1em;
-
 }
 
 .contenido-formulario form button:hover,
@@ -700,4 +712,3 @@ h4 span {
     }
 
 }
-
