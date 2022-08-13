@@ -86,6 +86,7 @@ $color-apple: white;
     margin-left: 40px;
     color: $color-apple;
     line-height: 0.8em;
+    }
 
     .span_applecasesl {
     color: $color-apple;
@@ -94,6 +95,7 @@ $color-apple: white;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 38px;
+    }
 
     span {
     background: linear-gradient(to right,  rgb(255, 176, 6),rgb(219, 46, 133), rgb(219, 46, 133),rgb(255, 176, 6), rgb(255, 176, 6),rgb(219, 46, 133));
@@ -101,8 +103,10 @@ $color-apple: white;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 50px;
+    }
 
-button a {
+    button {
+    a {
     display: block;
     font-size: 23px;
     font-family: $fuente-ap;
@@ -110,8 +114,6 @@ button a {
     padding: 7px 20px;
     color: rgb(0, 0, 0);
     text-decoration: none;
-                }
-            }
         }
     }
 }
