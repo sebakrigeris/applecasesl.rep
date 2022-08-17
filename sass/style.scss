@@ -9,6 +9,10 @@ $estilos: (
     tfuente: 30px,
     marginleft: 15px
 );
+@mixin tamaños($width, $height) {
+    width: $width;
+    height: $height;
+}
 
 
 /* Selector Universal - Margenes y Padding */
@@ -36,9 +40,9 @@ $estilos: (
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: $fuentes-apple;
-    font-size: 30px;
+    font-size: map-get($estilos, tfuente);
     color: $color-apple;
-    margin-left: 15px;
+    margin-left: map-get($estilos, marginleft);
 }
 
 .collapse {
@@ -65,8 +69,7 @@ $estilos: (
 /*Imagen principal */
 
 #img_principal_applecasesl {
-    width: 100%;
-    height: 650px;
+    @include tamaños(100%, 650px);
     background: url("../assets/backgrounds/backgroundtotal2.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,7 +119,7 @@ $estilos: (
     font-family: $fuente-ap;
     background: linear-gradient(to left, #7e8d99, #e1e7e9);
     padding: 7px 20px;
-    color: rgb(0, 0, 0);
+    color: map-get($estilos, colornegro);
     text-decoration: none;
         }
     }
@@ -125,8 +128,7 @@ $estilos: (
 /*Contenido index*/
 
 #img_secundaria_applecasesl {
-    width: 100%;
-    height: 650px;
+    @include tamaños(100%, 650px);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -264,23 +266,21 @@ div .but_applecasesl {
     color: white;
     margin-right: 20px;
     letter-spacing: 1px;
-}
 
-.whatsapp_applecasesl h4 {
-    font-size: 20px;
-    font-family: $fuentes--apple;
-    margin-top: 8px;
-}
-
-.gmail_applecasesl h4 {
+    .h4-whatsapp {
     font-size: 20px;
     font-family: $fuentes--apple;
     margin-top: 7px;
-}
+    }
 
-.whatsapp_applecasesl img, .gmail_applecasesl img {
-    margin-top: 3.2px;
-    margin-right: 16px;
+    .h4-gmail {
+    @extend .h4-whatsapp;
+    }
+
+    img {
+        margin-top: 5px;
+        margin-right: 16px;
+    }
 }
 
 /*Página Productos*/

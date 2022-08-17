@@ -211,20 +211,13 @@ div .but_applecasesl {
   color: white;
   margin-right: 20px;
   letter-spacing: 1px; }
-
-.whatsapp_applecasesl h4 {
-  font-size: 20px;
-  font-family: "Inter", sans-serif;
-  margin-top: 8px; }
-
-.gmail_applecasesl h4 {
-  font-size: 20px;
-  font-family: "Inter", sans-serif;
-  margin-top: 7px; }
-
-.whatsapp_applecasesl img, .gmail_applecasesl img {
-  margin-top: 3.2px;
-  margin-right: 16px; }
+  .whatsapp_applecasesl .h4-whatsapp, .whatsapp_applecasesl .h4-gmail, .gmail_applecasesl .h4-whatsapp, .gmail_applecasesl .h4-gmail {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    margin-top: 7px; }
+  .whatsapp_applecasesl img, .gmail_applecasesl img {
+    margin-top: 5px;
+    margin-right: 16px; }
 
 /*Página Productos*/
 #imageproduct {
