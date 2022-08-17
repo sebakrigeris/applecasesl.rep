@@ -4,7 +4,11 @@ $fuentes-apple:'Montserrat', sans-serif;
 $fuentes--apple:'Inter', sans-serif;
 $fuentes---apple:'Public Sans- Medium', sans-serif;
 $color-apple: white;
-
+$estilos: (
+    colornegro: black,
+    tfuente: 30px,
+    marginleft: 15px
+);
 
 
 /* Selector Universal - Margenes y Padding */
