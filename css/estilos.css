@@ -133,7 +133,7 @@
   margin-top: 70px; }
 
 .style-apple {
-  width: 98%;
+  width: 97%;
   margin: auto;
   margin-top: -50px;
   margin-bottom: 100px;
@@ -174,8 +174,7 @@ div .but_applecasesl {
   background: linear-gradient(to right, black, #2c374e, #363941);
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 5px; }
+  align-items: center; }
 
 .redsocial_applecasesl {
   display: flex;
@@ -188,7 +187,7 @@ div .but_applecasesl {
   transition: 0.3s; }
 
 .social_applecasesl img {
-  margin-left: 80px; }
+  margin-left: 50px; }
 
 .desarrollo_applecasesl h5 {
   display: flex;
@@ -213,11 +212,11 @@ div .but_applecasesl {
   letter-spacing: 1px; }
   .whatsapp_applecasesl .h4-whatsapp, .whatsapp_applecasesl .h4-gmail, .gmail_applecasesl .h4-whatsapp, .gmail_applecasesl .h4-gmail {
     font-size: 18px;
-    font-family: "Space Grotesk", sans-serif;
+    font-family: 'Assistant', sans-serif;
     margin-top: 7px; }
   .whatsapp_applecasesl img, .gmail_applecasesl img {
-    margin-top: 5px;
-    margin-right: 16px; }
+    margin-top: 6px;
+    margin-right: 12px; }
 
 /*Página Productos*/
 #imageproduct {
@@ -311,31 +310,35 @@ h4 span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("../assets/backgrounds/backgroundtotal.png");
-}
+  background: url("../assets/backgrounds/backgroundtotal.png"); }
+  #contenedorubicación .tamaño-ubi {
+    width: 45%;
+    margin: auto; }
+  #contenedorubicación .border-ubi {
+    margin: 1px 20px 25px 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 1em;
+    color: black; }
+  #contenedorubicación h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: 'Assistant', sans-serif;
+    border-bottom: 1px solid #000000;
+    font-size: 27px;
+    text-align: center; }
+  #contenedorubicación ul {
+    color: #000000;
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px; }
+  #contenedorubicación img {
+    margin-top: -25px; }
 
-.tamaño-ubi {
-  width: 70%;
-}
-
-#contenedorubicación h2 {
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
-  color: white;
-  font-family: 'Inter', sans-serif;
-  border: 1px solid white;
-  border-radius: 1rem;
-  font-size: 30px;
-  text-align: center;
-  }
-
-#contenedorubicación ul {
-  margin: auto;
-  color: white;
-  font-family: 'Assistant', sans-serif;
-  font-size: 20px; 
-}
+.iframe-ubi {
+  border-radius: 1em;
+  margin: 10px; }
 
 /*página nosotros*/
 .logo-nosotros {
