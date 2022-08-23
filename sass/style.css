@@ -95,7 +95,7 @@
   font-family: "Space Grotesk", sans-serif;
   background: linear-gradient(to left, #7e8d99, #e1e7e9);
   padding: 7px 20px;
-  color: rgb(0, 0, 0);
+  color: black;
   text-decoration: none;
 }
 
@@ -196,7 +196,6 @@ div .but_applecasesl {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
 }
 
 .redsocial_applecasesl {
@@ -212,7 +211,7 @@ div .but_applecasesl {
 }
 
 .social_applecasesl img {
-  margin-left: 80px;
+  margin-left: 50px;
 }
 
 .desarrollo_applecasesl h5 {
@@ -239,22 +238,14 @@ div .but_applecasesl {
   margin-right: 20px;
   letter-spacing: 1px;
 }
-
-.whatsapp_applecasesl h4 {
-  font-size: 20px;
-  font-family: "Inter", sans-serif;
-  margin-top: 8px;
-}
-
-.gmail_applecasesl h4 {
-  font-size: 20px;
-  font-family: "Inter", sans-serif;
+.whatsapp_applecasesl .h4-whatsapp, .whatsapp_applecasesl .h4-gmail, .gmail_applecasesl .h4-whatsapp, .gmail_applecasesl .h4-gmail {
+  font-size: 18px;
+  font-family: "Assistant", sans-serif;
   margin-top: 7px;
 }
-
 .whatsapp_applecasesl img, .gmail_applecasesl img {
-  margin-top: 3.2px;
-  margin-right: 16px;
+  margin-top: 6px;
+  margin-right: 12px;
 }
 
 /*Página Productos*/
@@ -297,6 +288,13 @@ div .but_applecasesl {
 
 .card-title {
   background-color: white;
+  padding: 5px 1px;
+}
+
+.card-text {
+  color: white;
+  list-style-type: none;
+  text-align: start;
 }
 
 #contenedorproductos img:hover {
@@ -359,27 +357,44 @@ h4 span {
 
 /* Page Ubication */
 #contenedorubicación {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, rgb(0, 0, 0), rgb(44, 55, 78), rgb(54, 57, 65));
+  background: url("../assets/backgrounds/backgroundtotal.png");
 }
-
-#contenedorubicación h2 {
-  padding: 15px;
-  color: white;
-  font-family: "Inter", sans-serif;
-  font-size: 40px;
-  text-align: center;
+#contenedorubicación .tamaño-ubi {
+  width: 45%;
+  margin: auto;
 }
-
-#contenedorubicación p {
-  color: white;
-  font-family: "Inter", sans-serif;
-  font-size: 30px;
+#contenedorubicación .border-ubi {
+  margin: 1px 20px 25px 20px;
   padding: 10px;
+  background-color: white;
+  border-radius: 1em;
+  color: black;
+}
+#contenedorubicación h2 {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: #000000;
+  font-family: "Assistant", sans-serif;
+  border-bottom: 1px solid #000000;
+  font-size: 27px;
   text-align: center;
+}
+#contenedorubicación ul {
+  color: #000000;
+  font-family: "Assistant", sans-serif;
+  font-size: 18px;
+}
+#contenedorubicación img {
+  margin-top: -25px;
+}
+
+.iframe-ubi {
+  border-radius: 1em;
+  margin: 10px;
 }
 
 /*página nosotros*/

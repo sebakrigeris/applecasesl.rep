@@ -253,7 +253,13 @@ div .but_applecasesl {
   background: url("../assets/backgrounds/backgroundtotal2.png"); }
 
 .card-title {
-  background-color: white; }
+  background-color: white;
+  padding: 5px 1px; }
+
+.card-text {
+  color: white;
+  list-style-type: none;
+  text-align: start; }
 
 #contenedorproductos img:hover {
   width: 290px;
@@ -306,7 +312,6 @@ h4 span {
   border: 1px solid #713fcf; }
 
 /* Page Ubication */
-
 #contenedorubicación {
   display: flex;
   justify-content: center;

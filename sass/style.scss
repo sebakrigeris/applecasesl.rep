@@ -324,8 +324,14 @@ div .but_applecasesl {
 
 .card-title{
     background-color: $color-apple;
+    padding: 5px 1px;
 }
 
+.card-text {
+    color: white;
+    list-style-type: none;
+    text-align: start;
+}
 #contenedorproductos img:hover {
     width: 290px;
     transition: 1s;
