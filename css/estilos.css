@@ -132,7 +132,7 @@
 #img_secundaria_applecasesl #img_2_applecasesl img {
   margin-top: 70px; }
 
-.style-apple {
+.style-appleindex {
   width: 97%;
   margin: auto;
   margin-top: -50px;
@@ -242,15 +242,19 @@ div .but_applecasesl {
   grid-template-columns: repeat(5, auto);
   grid-template-rows: repeat(2, auto);
   grid-column-gap: 10px;
-  grid-row-gap: 10px;
   justify-content: center;
   text-align: center;
-  margin-top: 70px;
-  margin-bottom: -35px; }
+  margin-top: 40px;
+  margin-bottom: -85px; }
 
 .card {
   display: grid;
   background: url("../assets/backgrounds/backgroundtotal2.png"); }
+
+.style-apple {
+  width: 18rem;
+  border-radius: 0.5em;
+  margin-bottom: 10px; }
 
 .card-title {
   background-color: white;
@@ -472,6 +476,11 @@ h4 span {
   .navbar-toggler {
     background-color: white;
     margin-right: 10px; }
+  .collapse {
+    justify-content: start; }
+  .btn_applecasesl {
+    padding: 3px 7px;
+    margin-left: -5px; }
   /*Imagen principal*/
   #img_principal_applecasesl {
     height: 370px; }
@@ -507,6 +516,8 @@ h4 span {
   #img_2_applecasesl img {
     width: 310px;
     margin-bottom: 140px; }
+  .tamaño-apple {
+    margin-top: -150px; }
   /*imagenes index contenido secundario */
   #contenido2_applecasesl {
     grid-template-columns: auto; }
@@ -523,8 +534,14 @@ h4 span {
   .product-apple h2 {
     width: 70%; }
   #contenedorproductos {
-    grid-template-columns: auto;
-    margin-bottom: 120px; }
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 12px; }
+  #contenedorproductos .style-apple {
+    width: 16rem;
+    border-radius: 0.5em; }
   /* iframe page-productos */
   .contenedor-iframe {
     flex-direction: column;
@@ -540,12 +557,17 @@ h4 span {
     height: 220px;
     margin-left: 25px; }
   /* página ubicación */
-  #contenedorubicación h2 {
-    font-size: 30px;
-    border: 1px solid white; }
-  #contenedorubicación p {
-    font-size: 25px;
-    margin-bottom: 30px; }
+  #contenedorubicación {
+    flex-direction: column; }
+  #contenedorubicación .tamaño-ubi {
+    width: 99%;
+    margin: 15px; }
+  #contenedorubicación img {
+    width: 400px;
+    margin-left: -20px; }
+  #contenedorubicación iframe {
+    width: 95%;
+    height: 300px; }
   /* página nosotros */
   .logo-nosotros {
     height: 200px; }
