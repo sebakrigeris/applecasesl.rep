@@ -112,17 +112,23 @@ $estilos: (
     font-size: 50px;
     }
 
-    button {
-    a {
-    display: block;
-    font-size: 23px;
-    font-family: $fuente-ap;
-    background: linear-gradient(to left, #7e8d99, #e1e7e9);
+    // button {
+    // a {
+    // display: block;
+    // font-size: 23px;
+    // font-family: $fuente-ap;
+    // background: linear-gradient(to left, #7e8d99, #e1e7e9);
+    // padding: 7px 20px;
+    // color: map-get($estilos, colornegro);
+    // text-decoration: none;
+    //     }
+    // }
+}
+
+.btn {
     padding: 7px 20px;
-    color: map-get($estilos, colornegro);
-    text-decoration: none;
-        }
-    }
+    font-size: 23px;
+    margin-top: 7px;
 }
 
 /*Contenido index*/
@@ -159,27 +165,27 @@ $estilos: (
     font-size: 50px;
 }
 
-.textosec_applecasesl button a {
-    display: block;
-    font-size: 20px;
-    font-family: $fuente-ap;
-    color: black;
-    border-width: none;
-    background: linear-gradient(to left, #7e8d99, #e1e7e9);
-    padding: 7px 15px;
-    text-decoration: none;
-}
+// .textosec_applecasesl button a {
+//     display: block;
+//     font-size: 20px;
+//     font-family: $fuente-ap;
+//     color: black;
+//     border-width: none;
+//     background: linear-gradient(to left, #7e8d99, #e1e7e9);
+//     padding: 7px 15px;
+//     text-decoration: none;
+
 
 #img_secundaria_applecasesl #img_2_applecasesl img {
     margin-top: 70px;
 }
 
 .style-appleindex {
-    width: 97%;
+    width: 99%;
     margin: auto;
     margin-top: -50px;
     margin-bottom: 100px;
-    border-radius: 1em;
+    border-radius: 0.5em;
 }
 
 /* contenido secundario index */
@@ -277,7 +283,7 @@ div .but_applecasesl {
     }
 
     img {
-        margin-top: 6px;
+        margin-top: 7px;
         margin-right: 12px;
     }
 }
@@ -329,6 +335,7 @@ div .but_applecasesl {
 .card-title{
     background-color: $color-apple;
     padding: 5px 1px;
+    font-family: $fuentes-apple;
 }
 
 .card-text {
@@ -336,9 +343,15 @@ div .but_applecasesl {
     list-style-type: none;
     text-align: start;
 }
+
+.card .btn {
+    font-size: 1.2rem;
+    padding: 7px 15px;
+}
+
 #contenedorproductos img:hover {
     width: 290px;
-    transition: 1s;
+    transition: 0.2s;
     outline: auto;
 }
 
